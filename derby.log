@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Feb 09 15:33:06 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-2bde-cbd4-000010a78b20 
+on database directory C:\Users\ksilh\AppData\Local\Temp\gfembed6129695005522250130tmp\lib\databases\embedded_default with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/ksilh/.m2/repository/org/glassfish/main/extras/glassfish-embedded-all/5.1.0/glassfish-embedded-all-5.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\ksilh\Documents\NetBeansProjects\movieplex7
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
