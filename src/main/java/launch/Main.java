@@ -36,7 +36,7 @@ public class Main {
         File classRoot = new File("target", "classes");
 
         Deployer deployer = glassfish.getDeployer();
-        ScatteredArchive archive = new ScatteredArchive("", ScatteredArchive.Type.WAR, webRoot);
+        ScatteredArchive archive = new ScatteredArchive("movieplex7", ScatteredArchive.Type.JAR, webRoot);
         archive.addClassPath(classRoot);
         deployer.deploy(archive.toURI());
     }
