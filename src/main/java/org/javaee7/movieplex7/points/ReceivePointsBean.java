@@ -30,7 +30,7 @@ public class ReceivePointsBean {
     @Inject
     JMSContext context;
 
-    @Resource(lookup = "jms/pointsQueue")
+    @Resource(lookup = "java:global/jms/pointsQueue")
     Queue pointsQueue;
 
     public String receiveMessage() {
