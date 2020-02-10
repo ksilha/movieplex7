@@ -21,7 +21,7 @@ import javax.jms.QueueBrowser;
  *
  * @author ksilh
  */
-@JMSDestinationDefinition(name = "java:global/jms/pointsQueue",
+@JMSDestinationDefinition(name = "jms/pointsQueue",
         interfaceName = "javax.jms.Queue")
 @Named
 @RequestScoped
@@ -30,7 +30,7 @@ public class ReceivePointsBean {
     @Inject
     JMSContext context;
 
-    @Resource(lookup = "java:global/jms/pointsQueue")
+    @Resource(lookup = "jms/pointsQueue")
     Queue pointsQueue;
 
     public String receiveMessage() {
