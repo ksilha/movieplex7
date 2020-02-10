@@ -21,7 +21,7 @@ import javax.jms.QueueBrowser;
  *
  * @author ksilh
  */
-@JMSDestinationDefinition(name = "jms/pointsQueue",
+@JMSDestinationDefinition(name = "java:global/jms/pointsQueue",
         interfaceName = "javax.jms.Queue")
 @Named
 @RequestScoped
