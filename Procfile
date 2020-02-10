@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -cp target/classes:target/dependency/* org.javaee7.movieplex7.launch.Main
+web:    java $JAVA_OPTS -cp target/classes:target/dependency/* launch.Main
