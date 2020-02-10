@@ -41,7 +41,7 @@ public class MovieClientBean {
         client = ClientBuilder.newClient();
         target = client
                 .target("http://"
-                        + httpServletRequest.getServerName()
+                        + httpServletRequest.getLocalName()
                         + ":"
                         + httpServletRequest.getLocalPort()
                         + httpServletRequest.getContextPath()
