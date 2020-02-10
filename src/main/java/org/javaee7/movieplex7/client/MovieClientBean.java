@@ -44,7 +44,6 @@ public class MovieClientBean {
                         + httpServletRequest.getLocalName()
                         + ":"
                         + httpServletRequest.getLocalPort()
-                        + "/"
                         + httpServletRequest.getContextPath()
                         + "/webresources/movie/");
     }
